@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0; }
+
+body {
+  background: #1c1b1b; }
+
+#numbers {
+  color: #0188b1;
+  font-size: 7.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media screen and (max-width: 585px) {
+  #numbers {
+    font-size: 5em !important; } }
